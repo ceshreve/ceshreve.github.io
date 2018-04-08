@@ -1,0 +1,19 @@
+.education_entry
+	.row
+		h4.col-md-8 !{school.name}
+		p.p_alignright.p_date !{school.date}
+	.row
+		p.col-md-8
+			i !{school.degree}
+		p.p_alignright !{school.city}
+	ul.courses_ul
+		each detail in school.details
+			li= detail
+	if school.courses.length > 0
+		p
+			i Notable Courses
+	ul.courses_ul
+		each course in school.courses
+			li= course.name
+				each project in course.projects
+					li.projects_li= project

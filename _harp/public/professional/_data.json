@@ -1,0 +1,59 @@
+{ "Experience":
+  {
+    "United Shore Full Time": {
+      "company": "United Shore",
+      "title": "Software Developer I",
+      "date": "January 2018 - Present",
+      "city": "Troy, Michigan",
+      "resp": [
+        "Design, develop and test new full stack software projects utilizing C# & .NET"
+      ]
+    },
+    "OuD Internship": {
+      "company": "University of Michigan Office of University Development",
+      "title": "Web Site Designer",
+      "date": "August 2017 - December 2017",
+      "city": "Ann Arbor, Michigan",
+      "resp": [
+        "Developed M.E.A.N. stack application for use by fundraisers as a tool for tracking information about donor events", 
+        "Worked in AngularJS & Bootstrap to develop a comprehensive, intuitive and responsive user interface", 
+        "Completed a REST API using NodeJS and ExpressJS to query MongoDB NoSQL database", 
+        "Enhanced current system of donor tracking (document emailing) by implementing “Wiki” style application"
+      ]
+    },
+    "United Shore 2017": {
+    	"company": "United Shore",
+      "title": "Application Development Summer Team Member",
+      "date": "May 2017 - August 2017",
+      "city": "Troy, Michigan",
+      "resp": [
+      	"Refactored, enhanced and prepared for production an in-house survey, evaluation, and event registration system", 
+        "Added “live room” event feature to event registration application allow for a collaborative space during events", 
+        "Added new features, preformed code reviews and code clean-ups, unit and user tested the application."
+
+      ]
+    },
+    "United Shore 2016": {
+    	"company": "United Shore",
+      "title": "Application Development Summer Team Member",
+      "date": "May 2016 - August 2016",
+      "city": "Troy, Michigan",
+      "resp": [
+      	"Designed a full-stack C# ASP.NET MVC to enable team members to upload and share process maps", 
+        "Improved team member productivity by adjusting outdated screens", 
+        "Added user interface features to internal web applications"
+      ]
+    },
+    "Birdleaf": {
+      "company": "Birdleaf",
+      "title": "Software Development Intern",
+      "date": "May 2015 - August 2015",
+      "city": "Dublin, Ireland",
+      "resp": [
+        "Implemented a Python-Flask app with an AngularJS front end, PostGresSQL database and set up the application on an Amazon AWS Ubuntu server", 
+        "Allowed non-developers the ability to update incorrect records in the database with a helpful web interface", 
+        "Enhanced the future predictions of the categorizing application by providing a more correct training data set"
+      ]
+    }
+  }
+}

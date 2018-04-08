@@ -1,0 +1,5 @@
+#education.jumbotron
+	.container.education_container
+		h2.education_h2 Education
+		each school in public.education._data.Education
+			!= partial("_education-partial", {school:school})

@@ -1,0 +1,62 @@
+{ "Education":
+  {
+    "College": {
+      "name": "University of Michigan",
+      "date": "September 2013 - December 2017",
+      "degree": "College of Literature, Sciences and the Arts",
+      "city": "Ann Arbor, Michigan",
+      "details": [
+        "Bachelor's of Science",
+        "Major: Computer Science",
+        "GPA: 3.2",
+        "Michigan Marching Band Flag Line Rank Leader, 2016",
+        "William D. Revelli Alumni Band Scholarship Recipient 2015",
+        "Gary J. Lewis Scholarship Recipient 2016"
+      ],
+      "courses": [
+        {
+          "name": "EECS 490- Programming Languages",
+          "projects": [
+            "Wrote scheme lexer & parser in scheme",
+            "Designed scheme interpreter in python",
+            "Implemented semantic analyzer for a fictional C-family language (in Python)",
+            "Created python program to generate C++ code from fictional C-family language"
+          ]
+        },
+        {
+          "name": "EECS 493- User Interface Development",
+          "projects": [
+            "Developed VR adaptation of a simple online game. Written in Swift, using Apple's SceneKit rendering, users put phone in Google Cardboard and turn head left and right to collect VR sugar cubes and milk cartons in their coffee cup. As the game progresses, the items fall at a faster rate. Failure to catch an item results in a life loss, users have 3 lives before the game is over."
+          ]
+        },
+        {
+          "name" :"EECS 481- Software Engineering",
+          "projects": [
+            "Created a windows WPF desk top application to update a Microsoft HoLo Lens heads up display in real time. This project was designed for University of Michigan Pediatric E.R. Physicians to use to keep them updated on patient status and queue."
+          ]
+        },
+        {
+          "name":"EECS 485- Web Systems",
+          "projects": [
+            "Developed an instagram-like python-flask application to share pictures between users",
+            "Implemented a python hadoop map-reduce page rank algorithm for searching thousands of documents"
+          ]
+        },
+        {
+          "name" : "EECS 388- Introduction to Security",
+          "projects": []
+        }
+      ]
+    },
+    "High School": {
+      "name": "Troy Athens High School",
+      "date": "September 2011 - June 2013",
+      "degree": "High School Diploma",
+      "city": "Troy, Michigan",
+      "details": [
+      ],
+      "courses": [
+      ]
+    }
+  }
+}
