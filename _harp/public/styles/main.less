@@ -50,6 +50,10 @@ html, body {
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
+
+  p {
+    margin-bottom: 5px;
+  }
 }
 
 .footer {
@@ -68,123 +72,38 @@ html, body {
   }
 }
 
-#professional {
-  text-align: left;
+#professional, #education, #projects {
+  text-align: center;
 
   h2 {
     color: @dark_gray;
-    text-align: center;
     margin-bottom: 20px;
   }
 
-  .professional_entry {
-    border: 2px solid @light_pink;
+  h4.testing {
     padding: 10px;
-    margin: 10px;
   }
 
-  .professional_container {
-    width: 80%;
+  .entry {
+    border: 2px solid @light_pink;
+    margin-bottom: 5px;
+  }
+
+  .container {
+    width: 60%;
   }
 
   p {
-    font-size: 14px;
-    margin-bottom: 0px;
-  }
-
-  .p_alignright {
-    text-align: right;
-    margin-right: 10px;
-  }
-
-  .p_date {
-    margin-top: 10px;
-  }
-
-  .duties_ul {
-    margin-top: 10px;
-  }
-
-  .professional_li {
-    width: 80%;
-  }
-
-}
-
-#education {
-  text-align: left;
-
-  h2 {
-    color: @dark_gray;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .education_entry {
-    border: 2px solid @light_pink;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .education_container {
-    width: 80%;
-  }
-
-  p {
-    font-size: 14px;
-    margin-bottom: 0px;
-  }
-
-  .p_alignright {
-    text-align: right;
-    margin-right: 10px;
-  }
-
-  .p_date {
-    margin-top: 10px;
-  }
-
-  .courses_ul {
-    margin-top: 10px;
+    font-size: 12px;
   }
 }
-
 
 .personal_img:hover {
   border-radius: 30px;
 }
 
-.projects_li {
-  margin-left: 25px;
-  font-size: 12px;
-  width: 80%;
-}
-
-.contact_page_main {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 360px;
-
-  .twitter_div {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-.resume_iframe {
-  height: 600px;
-  width: 400px;
-}
-
 .active {
   background-color: @light_pink;
-}
-
-.contact_page_main {
-  border: 2px solid @light_pink;
-  padding: 30px;
-  width: 500px;
 }
 
 .personal_page_main {
@@ -196,6 +115,11 @@ html, body {
 
   img {
     margin: 5px;
+  }
+
+  span.bold {
+    color: @light_pink;
+    margin-right: .5em;
   }
 }
 

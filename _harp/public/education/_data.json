@@ -6,12 +6,7 @@
       "degree": "College of Literature, Sciences and the Arts",
       "city": "Ann Arbor, Michigan",
       "details": [
-        "Bachelor's of Science",
-        "Major: Computer Science",
-        "GPA: 3.2",
-        "Michigan Marching Band Flag Line Rank Leader, 2016",
-        "William D. Revelli Alumni Band Scholarship Recipient 2015",
-        "Gary J. Lewis Scholarship Recipient 2016"
+        "Bachelor's of Science, Computer Science"
       ],
       "courses": [
         {
@@ -46,16 +41,6 @@
           "name" : "EECS 388- Introduction to Security",
           "projects": []
         }
-      ]
-    },
-    "High School": {
-      "name": "Troy Athens High School",
-      "date": "September 2011 - June 2013",
-      "degree": "High School Diploma",
-      "city": "Troy, Michigan",
-      "details": [
-      ],
-      "courses": [
       ]
     }
   }

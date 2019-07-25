@@ -1,11 +1,6 @@
-.professional_entry
+.entry
 	.row
-		h4.col-md-8 !{job.company}
-		p.p_alignright.p_date !{job.date}
+		h4 !{job.company}
 	.row
-		p.col-md-8
+		p
 			i !{job.title}
-		p.p_alignright !{job.city}
-	ul.duties_ul
-		each item in job.resp
-			li.professional_li= item

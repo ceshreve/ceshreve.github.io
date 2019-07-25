@@ -1,5 +1,5 @@
 #professional.jumbotron
-	.container.professional_container
-		h2.professional_h2 Experience
+	.container
+		h2 Experience
 		each job in public.professional._data.Experience
 			!= partial("_professional-partial", {job:job})
